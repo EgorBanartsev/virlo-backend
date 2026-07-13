@@ -101,7 +101,7 @@ Each element MUST follow this exact schema:
       'https://api.anthropic.com/v1/messages',
       {
         model: 'claude-sonnet-4-6',
-        max_tokens: 1000,
+        max_tokens: 8000,
         messages: [{ role: 'user', content: prompt }]
       },
       {
